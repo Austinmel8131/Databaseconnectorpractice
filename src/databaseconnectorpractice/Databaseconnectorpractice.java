@@ -49,6 +49,7 @@ public class Databaseconnectorpractice {
             }*/
             
             //test an SQL query
+             System.out.println("");
              }
         catch(SQLException e){
             System.out.println("SQL Error --> ");
