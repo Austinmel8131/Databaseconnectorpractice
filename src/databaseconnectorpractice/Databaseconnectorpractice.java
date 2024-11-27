@@ -57,7 +57,13 @@ public class Databaseconnectorpractice {
              System.out.println(e.getSQLState());//this will print out the exact message from the DB error
          }
          catch (ClassNotFoundException  e){
-            
+             
+            /*
+              CONNECTION NOTES
+               1) employees   --> this is the name of the database I am using; your could be different!
+               2) root --> this is the user name; there's a good chance you have used root also, but again it might be different
+               3) the last part is the user password for the user 'root' that I have; you will have a DIFFERENT password, so you need to use yours!
+            */
             System.out.println("Class error -- " + e.getMessage());
         }
         }
